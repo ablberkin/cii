@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{% load static %}
+<body>
+<input type="email" id="email">
+<button id="verify">验证</button>
+<form action="/user/send_email/" method="post">
+<input type="text" placeholder="验证码" name="email_code">
+<input type="submit" value="提交">
+    {% csrf_token %}
+</form>
+<script type="text/javascript" src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+<script type="text/javascript">
+    $('#verify').click(function () {
+        $.ajax({
+            type:'GET',
+            url:'/user/send_email/',
+            data:{'email':$('#email').val()},
+            success:function (result) {
+                alert('发送成功！');
+            }
+        });
+    });
+</script>
+</body>
+</html>
