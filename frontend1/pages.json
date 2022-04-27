@@ -1,0 +1,192 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,
+		{
+		    "path" : "pages/mine/informationUploader",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "信息上传",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,
+		{
+		    "path" : "pages/mine/register",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "注册",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,
+		{
+		    "path" : "pages/chat/privateChat/privateChat",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "聊天",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/index/newsindex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "学院讯息",
+                "enablePullDownRefresh": true
+            }
+            
+        },
+		{
+		    "path" : "pages/index/newsDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "学院信息详情",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/academic/academicIndex",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "学术信息",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/academic/academicForum",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "花狮兄弟",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/academic/academicForumIndex",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "花狮兄弟问题页",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/academic/academicForumDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "花狮兄弟问题详情页",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/index/life/lifeInformationIndex",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "生活信息",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/editor/schoolNewsEditor",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "学院信息编辑器",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		}
+
+        ,{
+            "path" : "pages/mine/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/register1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#1C49FF",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/index/home1.png",
+	        "selectedIconPath": "static/image/index/home2.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/search/search",
+	        "iconPath": "static/image/search/search1.png",
+	        "selectedIconPath": "static/image/search/search2.png",
+	        "text": "搜索"
+	    },{
+	        "pagePath": "pages/message/message",
+	        "iconPath": "static/image/message/message1.png",
+	        "selectedIconPath": "static/image/message/message2.png",
+	        "text": "消息"
+	    },{
+	        "pagePath": "pages/mine/mine",
+	        "iconPath": "static/image/mine/people1.png",
+	        "selectedIconPath": "static/image/mine/people2.png",
+	        "text": "我的"
+	    }]
+	}
+}

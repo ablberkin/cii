@@ -26,15 +26,14 @@ pip install pygments  # 用于代码高亮
 #### frontend
 
 - 保存前端文件的位置
-
 - pages-mine-mine：“我的”界面；pages-mine-register：“注册”，现阶段仅支持邮箱注册，上传到PostgreSQL进行保存；pages-mine-login：“登录”      `注：pages-mine-mine代表路径，相应文件处在frontend-pages-mine-mine的位置`
 
-![image-20220427215713853](C:\Users\Albertjin\AppData\Roaming\Typora\typora-user-images\image-20220427215713853.png)
+![注册界面，地址：https://s2.loli.net/2022/04/27/drZYQn4LWH5GPbj.png](https://s2.loli.net/2022/04/27/drZYQn4LWH5GPbj.png)
 
 - pages-index-index：“首页”，对各种信息进行分类导航；pages-index-newsindex：校园讯息展示；pages-index--newsDetail：讯息详情浏览
 - editor-schoolNewsEditor：“文本编辑器”，实现了富文本编辑器的前后端联通，文本信息上传到本地PostgreSQL服务器，图片资源借助uniapp的unicloud特性，上传到阿里云数据库上
 
-![image-20220427215611490](C:\Users\Albertjin\AppData\Roaming\Typora\typora-user-images\image-20220427215611490.png)
+![文本编辑器界面，地址：https://s2.loli.net/2022/04/27/iXt9d3pul5RsmVP.png](https://s2.loli.net/2022/04/27/iXt9d3pul5RsmVP.png)
 
 #### backend
 
